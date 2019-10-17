@@ -192,7 +192,7 @@ def get_dataset(dataset, args):
 
 
         annotations_train = json.load(open('/home/nexus/primates/annotations/annot_train.json'))
-        annotations_val = json.load(open('/home/nexus/primates/annotations/annot_train.json'))
+        annotations_val = json.load(open('/home/nexus/primates/annotations/annot_test.json'))
 
         img_path_train='/home/nexus/primates/train/'
         img_path_val='/home/nexus/primates/test/'
